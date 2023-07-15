@@ -12,7 +12,7 @@ public class Vehicle {
        setCurrentSpeed(0);
        setCurrentDirection(0);
     }
-    private void setName(String name){
+    public void setName(String name){
         this.name = name;
     }
 
@@ -20,14 +20,14 @@ public class Vehicle {
         return name;
     }
 
-    private void setCurrentSpeed(int newSpeed){
+    public void setCurrentSpeed(int newSpeed){
         this.currentSpeed = newSpeed;
     }
 
     public int getCurrentSpeed() {
         return currentSpeed;
     }
-    private void setCurrentDirection(int newDir){
+    public void setCurrentDirection(int newDir){
         this.currentDirection = newDir;
     }
 
