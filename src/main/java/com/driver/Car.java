@@ -20,6 +20,10 @@ public class Car extends Vehicle {
 
     public int getWheels() {return wheels;}
 
+    public void setType(String type) {this.type = type;}
+
+    public String getType() {return type;}
+
     public void setCurrentGear(int currentGear) {
         this.currentGear = currentGear;
     }
