@@ -20,6 +20,22 @@ public class Car extends Vehicle {
 
     public int getWheels() {return wheels;}
 
+    public void setCurrentGear(int currentGear) {
+        this.currentGear = currentGear;
+    }
+
+    public int getCurrentGear() {
+        return currentGear;
+    }
+
+    public void setManual(boolean manual) {
+        this.isManual = manual;
+    }
+
+    public boolean isManual() {
+        return isManual;
+    }
+
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         //Hint: Car extends Vehicle
         super("name");
