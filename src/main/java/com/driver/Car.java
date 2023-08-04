@@ -33,7 +33,7 @@ public class Car extends Vehicle {
     }
 
     public void setManual(boolean manual) {
-        this.isManual = manual;
+        isManual = manual;
     }
 
     public boolean isManual() {
@@ -53,7 +53,7 @@ public class Car extends Vehicle {
     }
 
     public void changeGear(int newGear){
-        setGears(newGear);
+        this.currentGear = newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
     }
 
